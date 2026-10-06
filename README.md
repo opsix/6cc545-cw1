@@ -44,3 +44,9 @@ gofmt -l .
 
 It says this process is responding and which node it is. It does not say any
 other node is reachable. See `docs/design-note.md`.
+
+## Submitting this
+
+Submission instructions, the evidence files, and a showcase script are in the
+`submission/` folder beside this repository. It is deliberately outside the
+repo so the guide is readable before the first push.
