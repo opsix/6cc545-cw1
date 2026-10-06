@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"example.edu/6cc545/cw1/internal/config"
+	"example.edu/6cc545/cw1/week01/internal/config"
 )
 
 func discardLogger() *slog.Logger {

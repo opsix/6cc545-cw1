@@ -17,8 +17,8 @@ import (
 	"net/http"
 	"time"
 
-	"example.edu/6cc545/cw1/internal/config"
-	"example.edu/6cc545/cw1/internal/httpapi"
+	"example.edu/6cc545/cw1/week01/internal/config"
+	"example.edu/6cc545/cw1/week01/internal/httpapi"
 )
 
 // App is one running node.

@@ -16,8 +16,8 @@ import (
 	"syscall"
 	"time"
 
-	"example.edu/6cc545/cw1/internal/app"
-	"example.edu/6cc545/cw1/internal/config"
+	"example.edu/6cc545/cw1/week01/internal/app"
+	"example.edu/6cc545/cw1/week01/internal/config"
 )
 
 func main() {

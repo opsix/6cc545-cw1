@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	"example.edu/6cc545/cw1/examples/firstfunction"
+	"example.edu/6cc545/cw1/week01/examples/firstfunction"
 )
 
 func main() {

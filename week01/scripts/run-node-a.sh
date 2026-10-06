@@ -1,11 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # Build and run node A.
 #
 # The binary is built first and then executed, rather than using "go run". With
 # "go run" the process you interrupt is the go tool, not the node, so the
 # shutdown path being demonstrated is not the node's. Building first means
 # Ctrl-C reaches the node itself.
-set -euo pipefail
+set -eu
 
 cd "$(dirname "$0")/.."
 

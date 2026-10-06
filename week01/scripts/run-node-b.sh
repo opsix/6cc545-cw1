@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # Build and run node B. Same code as node A, different identity and endpoint:
 # the two are told apart by configuration, not by their source.
-set -euo pipefail
+set -eu
 
 cd "$(dirname "$0")/.."
 

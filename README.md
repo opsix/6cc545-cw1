@@ -9,12 +9,12 @@ Week 5.
 
 | Path | Responsibility |
 |---|---|
-| `cmd/node/` | Parse flags, validate, hand over to the app |
-| `cmd/request/` | HTTP probe, so the demo does not depend on curl |
-| `internal/config/` | Settings and the rules for checking them |
-| `internal/app/` | Owns the listener, the HTTP server and shutdown |
-| `internal/httpapi/` | JSON helpers and the liveness handler |
-| `examples/firstfunction/` | The worked example: returning a value and an error |
+| `week01/cmd/node/` | Parse flags, validate, hand over to the app |
+| `week01/cmd/request/` | HTTP probe, so the demo does not depend on curl |
+| `week01/internal/config/` | Settings and the rules for checking them |
+| `week01/internal/app/` | Owns the listener, the HTTP server and shutdown |
+| `week01/internal/httpapi/` | JSON helpers and the liveness handler |
+| `week01/examples/firstfunction/` | The worked example: returning a value and an error |
 
 ## Running
 
@@ -22,11 +22,11 @@ Week 5.
 go build ./...
 
 # Two independent nodes
-sh scripts/run-node-a.sh     # 127.0.0.1:8081, identity node-a
-sh scripts/run-node-b.sh     # 127.0.0.1:8082, identity node-b
+sh week01/scripts/run-node-a.sh     # 127.0.0.1:8081, identity node-a
+sh week01/scripts/run-node-b.sh     # 127.0.0.1:8082, identity node-b
 
 # From another terminal
-go run ./cmd/request -url http://127.0.0.1:8081/healthz
+go run ./week01/cmd/request -url http://127.0.0.1:8081/healthz
 ```
 
 Ctrl-C stops a node: interrupt, then context cancellation, then a bounded

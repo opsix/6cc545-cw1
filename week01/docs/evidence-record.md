@@ -12,7 +12,7 @@ Environment: Go 1.24.5 (`.tools/go/bin/go version`), module
 | `gofmt -l .` | no output (all formatted) |
 | `go test ./... -run '^TestSmoke_'` | pass |
 | `go test ./... -count=1 -timeout 20s` | pass |
-| `go run ./examples/firstfunction/main` | `lab-demo` (the brief's target) |
+| `go run ./week01/examples/firstfunction/main` | `lab-demo` (the brief's target) |
 
 ## Task evidence
 

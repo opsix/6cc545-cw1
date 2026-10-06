@@ -34,7 +34,7 @@ the status before the body, which is the order net/http requires.
 
 ## Task 1.4 — two nodes
 
-`scripts/run-node-a.sh` and `run-node-b.sh` build the binary and then run it,
+`week01/scripts/run-node-a.sh` and `run-node-b.sh` build the binary and then run it,
 rather than using `go run`. With `go run` the process receiving Ctrl-C is the
 go tool, not the node, so the shutdown being demonstrated would not be the
 node's.
